@@ -1,6 +1,6 @@
 fr:
     all_time_team_name: "Tout le temps de l'équipe"
-    all_time_team_description: "Activités récentes dans %s (avec les sous-projets)"
+    all_time_team_description: "Activités récentes dans {{name}} (avec les sous-projets)"
 
     recent_activity: "Activité récente"
     recent_activity_description: "Activités récentes."
@@ -8,7 +8,7 @@ fr:
     recent_activity_etc_log: "Le pourcentage d'acheuvement a changé de <i>{{old_value}}%</i> à <i>{{value}}%</i>."
 
     overwork_ranking: "Niveau de surcharge"
-    overwork_ranking_description: "Moyenne de la semaine dernière est <span style=\"font-size:1.5em;\">%d heures</span>."
+    overwork_ranking_description: "Moyenne de la semaine dernière est <span style=\"font-size:1.5em;\">{{time}} heures</span>."
     overwork_ranking_name: "Nom"
     overwork_ranking_operating_hours: "Heures de traitement(moyenne contrastée)"
 
