@@ -1,6 +1,6 @@
 en:
     all_time_team_name: "All-time team"
-    all_time_team_description: "Recent activities in {{name}} (with sub projects)"
+    all_time_team_description: "Recent activities in %{name} (with sub projects)"
 
     recent_activity: "Recent Activity"
     recent_activity_description: "Recent activities."
@@ -8,7 +8,7 @@ en:
     recent_activity_etc_log: "Done ratio changed from <i>{{old_value}}%</i> to <i>{{value}}%</i>."
 
     overwork_ranking: "Overwork Ranking"
-    overwork_ranking_description: "Recent week average is <span style=\"font-size:1.5em;\">{{time}} hours</span>."
+    overwork_ranking_description: "Recent week average is <span style=\"font-size:1.5em;\"> %{time} hours</span>."
     overwork_ranking_name: "Name"
     overwork_ranking_operating_hours: "Operating Hours(contrast avg)"
 
