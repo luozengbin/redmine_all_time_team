@@ -1,6 +1,6 @@
 ja:
     all_time_team_name: "史上最高のチーム"
-    all_time_team_description: "%{{name}}（サブプロジェクトを含む）の最近の動き。"
+    all_time_team_description: " %{name}（サブプロジェクトを含む）の最近の動き。"
 
     recent_activity: "最近の動き"
     recent_activity_description: "最近1週間のメンバーの活動状況です。"
@@ -8,7 +8,7 @@ ja:
     recent_activity_etc_log: "進捗が<i>{{old_value}}%</i>から<i>{{value}}%</i>に変更されました。"
 
     overwork_ranking: "働き過ぎランキング"
-    overwork_ranking_description: "最近1週間のメンバーの平均作業時間は<span style=\"font-size:1.5em;\">%{{time}}時間</span>でした。"
+    overwork_ranking_description: "最近1週間のメンバーの平均作業時間は<span style=\"font-size:1.5em;\"> %{time} 時間</span>でした。"
     overwork_ranking_name: "名前"
     overwork_ranking_operating_hours: "作業時間（平均との比較）"
 
