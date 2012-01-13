@@ -1,5 +1,5 @@
 <h2><%= l(:all_time_team_name) %></h2>
-<p><%= l(:all_time_team_description, :name => project.name) %></p>
+<p><%= l(:all_time_team_description, :name => @project.name) %></p>
 
 <div style="width:50%;float:left;padding:5px;">
   <h3><%= l(:recent_activity) %></h3>
@@ -52,7 +52,7 @@
 
 <div style="float:left;padding:5px;">
   <h3><%= l(:overwork_ranking) %></h3>
-  <p><%= l(:overwork_ranking_description, :time => overwork_ranking_vo.average) %>
+  <p><%= l(:overwork_ranking_description, :time => @overwork_ranking_vo.average) %>
 
   <div style="height:300px;overflow:auto;">
     <% if @overwork_ranking_vo.users.length != 0 %>
